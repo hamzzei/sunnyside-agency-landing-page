@@ -8,13 +8,19 @@
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
   <link rel="stylesheet" href="styles.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <img src="mobile/image-header.jpg" alt="an orange sliced in half" id="mobile-image-header" class="full-width-img">
   <header id="header">
-    <img src="logo.svg" alt="Sunnyside logo" id="logo-header">
-    <img src="icon-hamburger.svg" alt="Main menu" id="menu-icon" aria-label="Main Menu">
+    <div id="header-bg-container">
+      <img src="mobile/image-header.jpg" alt="an orange sliced in half" id="mobile-image-header" class="full-width-img full-height-img">
+    </div>
+    <div id="top-banner">
+      <img src="logo.svg" alt="Sunnyside logo" id="logo-header">
+      <img src="icon-hamburger.svg" alt="Main menu" id="menu-icon" aria-label="Main Menu">
+    </div>
     <nav id="navbar-mobile">
       <p id="about-mobile" class="nav-links-mobile"><a href="#">About</a></p>
       <p id="services-mobile" class="nav-links-mobile"><a href="#">Services</a></p>
@@ -27,8 +33,10 @@
       <p id="projects" class="nav-links"><a href="#">Projects</a></p>
       <p id="contact"><a href="#">Contact</a></p>
     </nav>
-    <h1 id="h1-heading">We are creatives</h1>
-    <img src="icon-arrow-down.svg" alt="down arrow" id="down-arrow">
+    <div id="title">
+      <h1 id="h1-heading" class="uppercase">We are creatives</h1>
+      <img src="icon-arrow-down.svg" alt="down arrow" id="down-arrow">
+    </div>
   </header>
   <main id="main">
     <section id="transform-your-brand">
@@ -49,12 +57,12 @@
       <a href="#" class="main-link" id="learn-more-pink" target="_blank">Learn more</a>
     </section>
     <section id="graphic-design">
-      <img src="mobile/image-graphic-design.jpg" alt="a pair of cherries against a green background" class="full-width-img">
+      <img src="mobile/image-graphic-design.jpg" alt="a pair of cherries against a green background" class="full-width-img full-height-img">
       <h2 class="main-heading">Graphic design</h2>
       <p class="main-text">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
     </section>
     <section id="photography">
-      <img src="mobile/image-photography.jpg" alt="an orange against a light blue background" class="full-width-img">
+      <img src="mobile/image-photography.jpg" alt="an orange against a light blue background" class="full-width-img full-height-img">
       <h2 class="main-heading">Photography</h2>
       <p class="main-text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
     </section>
