@@ -1,3 +1,53 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary-s-red: hsl(7, 99%, 70%);
+    --clr-primary-yellow: hsl(51, 100%, 49%);
+    --clr-primary-dd-cyan: hsl(167, 40%, 24%);
+    --clr-primary-d-blue: hsl(198, 62%, 26%);
+    --clr-primary-dm-cyan: hsl(168, 34%, 41%);
+
+    --clr-neutral-vdd-blue: hsl(212, 27%, 19%);
+    --clr-neutral-vdg-blue: hsl(213, 9%, 39%);
+    --clr-neutral-dg-blue: hsl(232, 10%, 55%);
+    --clr-neutral-g-blue: hsl(210, 4%, 67%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+
+    --fs-body: 18px;
+
+    --ff-primary: 'Barlow', sans-serif;
+    --ff-accent: 'Fraunces', serif;
+
+    --fw-600: 600; /*use with Barlow*/
+    --fw-700: 700; /*use with Fraunces*/
+    --fw-900: 900; /*use with Fraunces*/
+}
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.full-width-img {
+    width: 100vw;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 5rem auto;
+}
+
+#navbar-desktop {
+    display: none;
+}
 
 .attribution { 
     font-size: 11px; 
